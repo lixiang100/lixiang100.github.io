@@ -1,6 +1,7 @@
 body {
-  background-image: url("beijing.jpg");
-  background-size: cover;
+	background-image: url('beijing.jpg'); /* 通过路径引用你的图像 */
+  background-size: cover; /* 背景大小随视口大小而变化 */
+  background-position: center; /* 将背景图像居中 */
 }
 .enter-button {
 	position: fixed;
