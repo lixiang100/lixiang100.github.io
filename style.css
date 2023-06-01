@@ -1,0 +1,19 @@
+body {
+  background-image: url("images/beijing.jpg");
+  background-size: cover;
+}
+head{
+	position: fixed;
+}
+.enter-button {
+	position: fixed;
+	top: calc(50% + 2.5rem);            
+	left: calc(60% - 6rem - 7rem);   
+	padding: .5rem;
+	background-color: #2955CC;
+	color: #fff;
+	font-size: 1.5rem;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
