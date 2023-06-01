@@ -2,9 +2,6 @@ body {
   background-image: url("images/beijing.jpg");
   background-size: cover;
 }
-head{
-	position: fixed;
-}
 .enter-button {
 	position: fixed;
 	top: calc(50% + 2.5rem);            
