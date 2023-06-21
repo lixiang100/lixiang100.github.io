@@ -1,0 +1,46 @@
+body {
+  background-image: url("images/beijing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 50px;
+  //位置判断
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  /* 在手机设备上设置样式 */
+  @media only screen and (max-width: 767px) {
+    /* 这里的样式将会在宽度小于等于767像素的手机设备上生效 */
+  }
+  
+  /* 在平板和PC设备上设置样式 */
+  @media only screen and (min-width: 768px) {
+    /* 这里的样式将会在宽度大于等于768像素的平板和PC设备上生效 */
+  }
+  
+  /* 在PC设备上设置样式 */
+  @media only screen and (min-width: 992px) {
+    /* 这里的样式将会在宽度大于等于992像素的PC设备上生效 */
+  }
+  
+  /* 在宽屏PC设备上设置样式 */
+  @media only screen and (min-width: 1200px) {
+    /* 这里的样式将会在宽度大于等于1200像素的宽屏PC设备上生效 */
+  }
+}
+head{
+	position: fixed;
+}
+.enter-button {
+	position: fixed;
+	top: calc(50% + 2.5rem);            
+	left: calc(60% - 6rem - 7rem);   
+	padding: .5rem;
+	background-color: #2955CC;
+	color: #fff;
+	font-size: 1.5rem;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
